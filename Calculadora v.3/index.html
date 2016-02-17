@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<title>Calculadora v3</title>
+</head>
+<body>
+		<div class="div-principal">
+		<div class="caja-pantalla">
+			<!--Pantalla-->
+			<input type="text" name="" id="pantalla"><br>
+		</div>
+		<div id="caja-botones"></div>
+		<!--Botones-->
+			<input type="button" class="botones" value="1" onclick="obtenerNum(1)">
+			<input type="button" class="botones" value="2" onclick="obtenerNum(2)">
+			<input type="button" class="botones" value="3" onclick="obtenerNum(3)">
+			<input type="button" class="botonepecial" value="4" onclick="obtenerNum(4)">
+			
+			<br/>
+			<input type="button" class="botones" value="5" onclick="obtenerNum(5)">
+			<input type="button" class="botones" value="6" onclick="obtenerNum(6)">
+			<input type="button" class="botones" value="7" onclick="obtenerNum(7)">
+			<input type="button" class="botonepecial" value="8" onclick="obtenerNum(8)">
+			
+			<br/>
+			<input type="button" class="botones" value="9" onclick="obtenerNum(9)">
+			<input type="button" class="botones" value="0" onclick="obtenerNum(0)">
+			<input type="button" class="botones" value="-" onclick="resta()">
+			<input type="button" class="botonepecial" value="+" onclick="suma()">
+			<br>
+			
+			<input type="button" class="botones" value="x" onclick="multiplicar()">
+			<input type="button" class="botones" value="%" onclick="division()">
+			<button class="botonC"><a href="index.html" class="botones">C</a></button>
+			<input type="button" class="botones" value="=" onclick="resultado()">
+		</div>
+	<script src="script.js"></script>
+</body>
+</html>

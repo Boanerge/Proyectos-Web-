@@ -1,0 +1,55 @@
+body{
+	margin: 0 auto;
+	background-image: url(fondo.jpg);
+	color: #5E0013;
+	text-align: center;
+	background-size: cover;
+	font-family: 'Pacifico', cursive;
+}
+.botones{
+	border-color: #3B3B3B;
+	background-color: #5E0013;
+	border-radius: 2.5px;
+	color: #FFA021;
+	height: 30px;
+	width: 30px;
+	margin-right: 5px;
+}
+.botonepecial{
+	border-color: #3B3B3B;
+	background-color: #5E0013;
+	border-radius: 2.5px;
+	color: #FFA021;
+	height: 30px;
+	width: 30px;
+	margin: 0 auto;
+}
+.botonC{
+	border-color: #3B3B3B;
+	background-color: #5E0013;
+	border-radius: 2.5px;
+	color: #FFA021;
+	height: 30px;
+	width: 30px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+.div-principal{
+	width: 15em;
+	height: 20em;
+	border-radius: 2em;
+	text-align: center;
+	background-color: #B4C2B2;
+	background-color: ; opacity: 0.8;
+	display: inline-block;
+	margin-top: 6em;
+}
+a{
+	text-decoration: none;
+}
+.caja-pantalla{
+	margin-top: 2em;
+}
+.caja-botones{
+	margin-top: 7em;
+}
