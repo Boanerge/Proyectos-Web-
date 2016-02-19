@@ -8,10 +8,12 @@
 </head>
 <body>
 		<div class="div-principal">
-		<div class="caja-pantalla">
+		<h1>La Bodeguera</h1>
+		<div >
 			<!--Pantalla-->
-			<input type="text" name="" id="pantalla"><br>
+			<input type="text" class ="caja-pantalla" name="" id="pantalla"><br>
 		</div>
+		<br>
 		<div id="caja-botones"></div>
 		<!--Botones-->
 			<input type="button" class="botones" value="1" onclick="obtenerNum(1)">
@@ -34,7 +36,7 @@
 			
 			<input type="button" class="botones" value="x" onclick="multiplicar()">
 			<input type="button" class="botones" value="%" onclick="division()">
-			<button class="botonC"><a href="index.html" class="botones">C</a></button>
+			<button class="botonC"><a href="index.html" class="botones" id="recargar">C</a></button>
 			<input type="button" class="botones" value="=" onclick="resultado()">
 		</div>
 	<script src="script.js"></script>
