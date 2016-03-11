@@ -24,16 +24,7 @@ body{
 	width: 30px;
 	margin: 0 auto;
 }
-.botonC{
-	border-color: #3B3B3B;
-	background-color: #5E0013;
-	border-radius: 2.5px;
-	color: #FFA021;
-	height: 30px;
-	width: 30px;
-	margin-left: 0px;
-	margin-right: 6px;
-}
+
 .div-principal{
 	width: 15em;
 	height: 20em;
@@ -43,9 +34,6 @@ body{
 	background-color: ; opacity: 0.8;
 	display: inline-block;
 	margin-top: 6em;
-}
-a{
-	text-decoration: none;
 }
 .caja-pantalla{
 	margin-top: 0.2em;
@@ -59,8 +47,4 @@ a{
 }
 .caja-botones{
 	margin-top: 7em;
-}
-#recargar{
-	height: 2%;
-	width: 0%;
 }

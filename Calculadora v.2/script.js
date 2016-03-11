@@ -1,6 +1,6 @@
 //Valor que hay escrito en la pantalla.
 var pantalla = document.getElementById("pantalla");
-var punto = '.';
+
 //Obtener el valor que hay en la pantalla para concatenarlo con el numero presinado.
 var obtenerNum = function(Num){
 	var x = document.getElementById("pantalla");	
@@ -30,6 +30,9 @@ var division = function(){
 	valor_viejo = parseFloat(pantalla.value);
 	pantalla.value = '';
 	signo = '/';
+}
+var limpiarPantalla = function () {
+	pantalla.value = " ";
 }
 //Resultado
 var resultado = function(){
